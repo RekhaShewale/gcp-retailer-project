@@ -5,6 +5,7 @@ import tempfile
 from shutil import copytree, ignore_patterns
 from google.cloud import storage
 
+
 def _create_file_list(directory: str, name_replacement: str) -> tuple[str, list[str]]:
     """Copies relevant files to a temporary directory and returns the list."""
     if not os.path.exists(directory):
