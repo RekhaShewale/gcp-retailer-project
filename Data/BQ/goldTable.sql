@@ -18,6 +18,7 @@ WHERE o.is_active = TRUE
 GROUP BY 1, 2, 3, 4, 5;
 
 -----------------------------------------------------------------------------------------------------------
+
 -- 2. Customer Engagement Metrics (customer_engagement)
 CREATE TABLE IF NOT EXISTS `rekha-gcp-practice-15022025.gold_dataset.customer_engagement`
 AS
@@ -36,6 +37,7 @@ WHERE c.is_active = TRUE
 GROUP BY 1, 2, 6;
 
 -----------------------------------------------------------------------------------------------------------
+
 --3. Product Performance (product_performance)
 
 CREATE TABLE IF NOT EXISTS `rekha-gcp-practice-15022025.gold_dataset.product_performance`
@@ -61,6 +63,7 @@ WHERE p.is_quarantined = FALSE
 GROUP BY 1, 2, 3, 4, 5, 6;
 
 -----------------------------------------------------------------------------------------------------------
+
 --4. Supplier Performance (supplier_analysis)
 CREATE TABLE IF NOT EXISTS `rekha-gcp-practice-15022025.gold_dataset.supplier_analysis`
 AS
@@ -77,6 +80,7 @@ WHERE s.is_quarantined = FALSE
 GROUP BY 1, 2;
 
 -----------------------------------------------------------------------------------------------------------
+
 --5. Customer Reviews Summary (customer_reviews_summary)
 CREATE TABLE IF NOT EXISTS `rekha-gcp-practice-15022025.gold_dataset.customer_reviews_summary`
 AS
