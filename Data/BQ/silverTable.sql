@@ -9,9 +9,6 @@ CREATE TABLE IF NOT EXISTS `rekha-gcp-practice-15022025.silver_dataset.customers
     effective_start_date TIMESTAMP,
     effective_end_date TIMESTAMP,
     is_active BOOL
-)
-OPTIONS (
-    format = 'JSON'
 );
 
 
