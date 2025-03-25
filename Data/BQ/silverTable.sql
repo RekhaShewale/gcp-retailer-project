@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS `rekha-gcp-practice-15022025.silver_dataset.customers
     is_active BOOL
 )
 OPTIONS (
-    format = 'JSON',
+    format = 'JSON'
 );
 
 
