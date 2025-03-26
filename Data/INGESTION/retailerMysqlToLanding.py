@@ -4,7 +4,6 @@ from pyspark.sql import SparkSession
 import datetime
 import json
 
-
 # Initialize Spark Session
 spark = SparkSession.builder.appName("RetailerMySQLToLanding").getOrCreate()
 
