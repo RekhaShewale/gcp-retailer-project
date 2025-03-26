@@ -13,6 +13,7 @@ steps:
       - "--dags_bucket=${_DAGS_BUCKET}"
       - "--data_directory=${_DATA_DIRECTORY}"
 
+
 options:
   logging: CLOUD_LOGGING_ONLY
 
@@ -20,3 +21,4 @@ substitutions:
   _DAGS_DIRECTORY: "workflows/"
   _DAGS_BUCKET: "us-central1-demo-instance-9a486fd1-bucket"
   _DATA_DIRECTORY: "Data/"
+
