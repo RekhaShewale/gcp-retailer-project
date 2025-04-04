@@ -13,7 +13,6 @@ steps:
       - "--dags_bucket=${_DAGS_BUCKET}"
       - "--data_directory=${_DATA_DIRECTORY}"
 
-
 options:
   logging: CLOUD_LOGGING_ONLY
 
